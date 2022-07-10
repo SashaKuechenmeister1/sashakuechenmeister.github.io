@@ -26,7 +26,7 @@
 
         e.preventDefault();
         var heading = $(this).attr('href');
-        var scrollDistance = $(heading).offset().top;
+        //var scrollDistance = $(heading).offset().top;
 
         $('html, body').animate({
             scrollTop: scrollDistance + 'px'
